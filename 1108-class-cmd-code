@@ -1,0 +1,20 @@
+# 下載虛擬環境模組
+pip install virtualenv
+# 切換至桌面
+cd desktop
+# 安裝模組，並取名為123
+python -m venv 123
+#導向至123目錄
+cd 123
+# 啟動環境
+scripts\activate
+# 下載django
+pip install django
+# 啟動專案
+django-admin startapp apple
+# 啟動模組
+django-admin startapp show
+# 更新資料庫
+python manage.py migrate
+# 啟動伺服器
+python manage.py runserver
