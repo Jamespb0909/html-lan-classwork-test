@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小新的個人網站介紹</title>
+    <style>
+        body {
+            background-color: #013220;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .profile {
+            padding: 20px;
+        }
+        .profile img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-top: 80px; /*改這*/
+            margin-bottom: 20px;
+        }
+        .links a {
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 18px;
+        }
+        .links a.facebook {
+            color: #1877F2; /* Facebook 藍色 */
+        }
+        .links a.google {
+            color: #DB4437; /* Google 紅色*/
+        }
+        .links a.yahoo {
+            color: #6001D2; /* Yahoo 紫色 */
+        }
+        .links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile">
+        <img src="小新.png" alt="小新的大頭照"  width="400" height="400">
+        <h1>我叫：小新</h1>
+        <p>喜歡大美女，養一隻寵物名叫小白。</p>
+        <div class="links">
+            <a href="https://www.facebook.com" target="_blank" class="facebook">Facebook</a>
+            <a href="https://www.google.com" target="_blank" class="google">Google</a>
+            <a href="https://www.yahoo.com" target="_blank" class="yahoo">Yahoo</a>
+        </div>
+    </div>
+</body>
+</html>
