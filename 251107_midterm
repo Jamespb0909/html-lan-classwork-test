@@ -12,19 +12,11 @@ img {border:0px;}
 <body>
 <h1>heheeeeeeeeeeeeeeeeeeeeeeeeee</h1>
 <figure align="center">    
-<img src="台北市/陳時中(民進黨).jpg" alt="土庫岳1">
-<img src="台北市/陳時中(民進黨).jpg" alt="土庫岳2">  
-<img src="台北市/陳時中(民進黨).jpg" alt="土庫岳2">  
-<h1><span style="color:#00ff80"  alt="民進黨"><abbr title="test">陳時中</abbr></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:greenyellow"  alt="民進黨"><abbr title="test">陳時中</abbr></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=color:green>陳時中</span></p>
+<img src="台北市/陳時中(民進黨).jpg" alt="民進黨">
+<img src="台北市/陳時中(民進黨).jpg" alt="民進黨">  
+<img src="台北市/陳時中(民進黨).jpg" alt="民進黨">  
+<h1><span style="color:#00ff80" alt="民進黨"><abbr title="test">陳時中</abbr></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:greenyellow"  alt="民進黨"><abbr title="test">陳時中</abbr></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=color:green><abbr title="test">陳時中</abbr></span></p>
  
-</figure>
-
-<figure>    
-<img src="img/DSC_0243.JPG" alt="聚興山1">
-<img src="img/DSC_0319.JPG" alt="聚興山2">    
-<figcaption>    
-來自攀登聚興山的攝影集 
-</figcaption>    
 </figure>    
 
 </body>
