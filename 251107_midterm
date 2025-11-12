@@ -1,23 +1,21 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<meta  charset="big5">
-<title>figure元素標籤</title>
-<style>
-body {text-align:center;}
-table {margin-left:auto; margin-right:auto;}
-img {border:0px;}
-</style>
+ <meta  charset="big5">
+ <title>figure元素標籤</title>
+ <style>
+  body {text-align:center;}
+  table {margin-left:auto; margin-right:auto;}
+  img {border:0px;}
+ </style>
 </head>
 <body>
-<h1>heheeeeeeeeeeeeeeeeeeeeeeeeee</h1>
-<figure align="center">    
-<img src="台北市/陳時中(民進黨).jpg" alt="民進黨">
-<img src="台北市/陳時中(民進黨).jpg" alt="民進黨">  
-<img src="台北市/陳時中(民進黨).jpg" alt="民進黨">  
-<h1><span style="color:#00ff80" alt="民進黨"><abbr title="test">陳時中</abbr></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:greenyellow"  alt="民進黨"><abbr title="test">陳時中</abbr></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=color:green><abbr title="test">陳時中</abbr></span></p>
- 
-</figure>    
-
+ <h1 style="background-color: aqua;color: deeppink;">heheeeeeeeeeeeeeeeeeeeeeeeeee</h1>
+ <figure align="center">    
+  <img src="台北市/陳時中(民進黨).jpg" alt="民進黨">
+  <img src="台北市/陳時中(民進黨).jpg" alt="民進黨">  
+  <img src="台北市/陳時中(民進黨).jpg" alt="民進黨">  
+  <h1><span style="color:#00ff80" alt="民進黨"><abbr title="test">陳時中</abbr></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:greenyellow"  alt="民進黨"><abbr title="test">陳時中</abbr></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=color:green><abbr title="test">陳時中</abbr></span></p> 
+ </figure>    
 </body>
 </html> 
