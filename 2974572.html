@@ -1,0 +1,165 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta  charset="big5">
+<title>B11413032徐尉宸</title>
+<style>
+
+form{margin-left: 80pt;margin-top: 5pt;}
+img {margin-left: 100pt;;margin-top: 25pt;}
+</style>
+</head>
+<body>
+<h1 align = "center"> 徐尉宸小吃部</h1>
+<form name="myForm" id="myForm" >
+請選擇你的餐點及份數: <br> 
+<input type="checkbox" id="myCheck1" name="myCheck1" value="牛肉麵">牛肉麵(90元) 
+<select name="mySelect1">
+  <option selected>請選擇</option>
+  <option id="mysel11" value="1">1份</option>
+  <option id="mysel12" value="2">2份</option>
+  <option id="mysel13" value="3">3份</option>
+  <option id="mysel14" value="4">4份</option>
+  <option id="mysel15" value="5">5份</option>
+ </select>
+<input type="checkbox" id="myCheck2" name="myCheck2" value="大滷麵">大滷麵(60元)
+<select name="mySelect2">
+  <option selected>請選擇</option>
+  <option id="mysel21" value="1">1份</option>
+  <option id="mysel22" value="2">2份</option>
+  <option id="mysel23" value="3">3份</option>
+  <option id="mysel24" value="4">4份</option>
+  <option id="mysel25" value="5">5份</option>
+ </select>
+ <input type="checkbox" id="myCheck3" name="myCheck3" value="餛飩麵">餛飩麵(70元)
+<select name="mySelect3">
+  <option selected>請選擇</option>
+  <option id="mysel31" value="1">1份</option>
+  <option id="mysel32" value="2">2份</option>
+  <option id="mysel33" value="3">3份</option>
+  <option id="mysel34" value="4">4份</option>
+  <option id="mysel35" value="5">5份</option>
+ </select>
+ <input type="checkbox" id="myCheck4" name="myCheck4" value="炸醬麵">炸醬麵(50元)
+<select name="mySelect4">
+  <option selected>請選擇</option>
+  <option id="mysel41" value="1">1份</option>
+  <option id="mysel42" value="2">2份</option>
+  <option id="mysel43" value="3">3份</option>
+  <option id="mysel44" value="4">4份</option>
+  <option id="mysel45" value="5">5份</option>
+ </select>
+ 
+ <input type="checkbox" id="myCheck5" name="myCheck5" value="滷肉飯">滷肉飯(40元)
+<select name="mySelect5">
+  <option selected>請選擇</option>
+  <option id="mysel51" value="1">1份</option>
+  <option id="mysel52" value="2">2份</option>
+  <option id="mysel53" value="3">3份</option>
+  <option id="mysel54" value="4">4份</option>
+  <option id="mysel55" value="5">5份</option>
+ </select>
+ <input type="checkbox" id="myCheck6" name="myCheck6" value="排骨飯">排骨飯(80元)
+<select name="mySelect6">
+  <option selected>請選擇</option>
+  <option id="mysel61" value="1">1份</option>
+  <option id="mysel62" value="2">2份</option>
+  <option id="mysel63" value="3">3份</option>
+  <option id="mysel64" value="4">4份</option>
+  <option id="mysel65" value="5">5份</option>
+ </select>
+ <input type="checkbox" id="myCheck7" name="myCheck7" value="雞腿飯">雞腿飯(100元)
+<select name="mySelect7">
+  <option selected>請選擇</option>
+  <option id="mysel71" value="1">1份</option>
+  <option id="mysel72" value="2">2份</option>
+  <option id="mysel73" value="3">3份</option>
+  <option id="mysel74" value="4">4份</option>
+  <option id="mysel75" value="5">5份</option>
+ </select>
+</form>
+<p>
+<img src="food.JPG" />
+</p>
+
+<button onclick="myFunction()">結帳</button>
+<br>
+<p id="demo"></p>
+<p id="total"></p>
+
+<script>
+function myFunction() {
+    var z = "你點的餐點:"
+	var sum =0;
+	var money = 0;
+	var money1 = 0;
+	var money2 = 0;
+	var money3 = 0;
+	var money4 = 0;
+	var money5 = 0;
+	var money6 = 0;
+    var x = document.getElementById("myCheck1").checked;
+    if (x) {
+	        var y = document.getElementById("myCheck1").value;
+			var sel = document.getElementById("mysel11").selected+document.getElementById("mysel12").selected*2+document.getElementById("mysel13").selected*3+document.getElementById("mysel14").selected*4+document.getElementById("mysel15").selected*5;
+			z=z + y + " x "+sel +" , ";
+			var money = 90 * sel;
+	        document.getElementById("demo").innerHTML = z;
+			}
+	x = document.getElementById("myCheck2").checked;
+    if (x) {
+	        y = document.getElementById("myCheck2").value;
+			sel = document.getElementById("mysel21").selected+document.getElementById("mysel22").selected*2+document.getElementById("mysel23").selected*3+document.getElementById("mysel24").selected*4+document.getElementById("mysel25").selected*5;
+			z=z + y + " x "+sel +" , ";
+			var money1 = 60 *sel;
+	        document.getElementById("demo").innerHTML = z;
+			}	
+	x = document.getElementById("myCheck3").checked;
+	 if (x) {
+	        y = document.getElementById("myCheck3").value;
+			sel = document.getElementById("mysel31").selected+document.getElementById("mysel32").selected*2+document.getElementById("mysel33").selected*3+document.getElementById("mysel34").selected*4+document.getElementById("mysel35").selected*5;
+			z=z + y + " x "+sel +" , ";
+			var money2 = 70 *sel;
+	        document.getElementById("demo").innerHTML = z;
+			}	
+	x = document.getElementById("myCheck4").checked;
+	 if (x) {
+	        y = document.getElementById("myCheck4").value;
+			sel = document.getElementById("mysel41").selected+document.getElementById("mysel42").selected*2+document.getElementById("mysel43").selected*3+document.getElementById("mysel44").selected*4+document.getElementById("mysel45").selected*5;
+			z=z + y + " x "+sel +" , ";
+			var money3 = 50 * sel;
+	        document.getElementById("demo").innerHTML = z;
+			}	
+	x = document.getElementById("myCheck5").checked;
+	 if (x) {
+	        y = document.getElementById("myCheck5").value;
+			sel = document.getElementById("mysel51").selected+document.getElementById("mysel52").selected*2+document.getElementById("mysel53").selected*3+document.getElementById("mysel54").selected*4+document.getElementById("mysel55").selected*5;
+			z=z + y + " x "+sel +" , ";
+			var money4 = 40 *sel;
+	        document.getElementById("demo").innerHTML = z;
+			}	
+	x = document.getElementById("myCheck6").checked;
+	 if (x) {
+	        y = document.getElementById("myCheck6").value;
+			sel = document.getElementById("mysel61").selected+document.getElementById("mysel62").selected*2+document.getElementById("mysel63").selected*3+document.getElementById("mysel64").selected*4+document.getElementById("mysel65").selected*5;
+			z=z + y + " x "+sel +" , ";
+			var money5 = 80 *sel;
+	        document.getElementById("demo").innerHTML = z;
+			}	
+	x = document.getElementById("myCheck7").checked;
+	 if (x) {
+	        y = document.getElementById("myCheck7").value;
+			sel = document.getElementById("mysel71").selected+document.getElementById("mysel72").selected*2+document.getElementById("mysel73").selected*3+document.getElementById("mysel74").selected*4+document.getElementById("mysel75").selected*5;
+			z=z + y + " x "+sel +" , ";
+			var money6 = 100 * sel;
+	        document.getElementById("demo").innerHTML = z;
+			}	
+	var total = money + money1 + money2 + money3 + money4 + money5 + money6;
+	var totalLine = "總金額:" + total; 
+	document.getElementById("total").innerHTML = totalLine;
+ 	
+}
+
+</script>
+</body>
+</html> 
